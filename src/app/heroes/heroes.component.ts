@@ -7,16 +7,9 @@ import { HEROES } from '../mock-heroes';
   templateUrl: './heroes.component.html',
   styleUrls: ['./heroes.component.css']
 })
-export class HeroesComponent implements OnInit {
+export class HeroesComponent {
   
   //properties...
   heroes=HEROES;
   }
 
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
